@@ -1,0 +1,16 @@
+Given: (λxf.fx)(λq.f)(λa.aa)
+
+You have a free variable: f
+
+Reduction is:
+(λxf.fx)(λq.f)(λa.aa)
+-> Alpha Reduction
+(λxf'.f'x)(λq.f)(λa.aa)
+-> (λq.f) goes into x
+(λf'.f'(λq.f))(λa.aa)
+-> (λa.aa) goes into f'
+(λa.aa)(λq.f)
+-> (λq.f) goes into a
+(λq.f)(λq.f)
+-> (λq.f) goes into q
+f
