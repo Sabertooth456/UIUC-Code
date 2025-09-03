@@ -1,0 +1,41 @@
+1) What is a socket?
+Sockets are files used for inter-process communication (IPC), allowing two processes to exchange information within a network.
+
+2) What is the difference between the domains AF_INET and AF_UNIX?
+https://stackoverflow.com/questions/21032562/example-to-explain-unix-domain-socket-af-inet-vs-af-unix
+AF_INET stands for Address Family, Internet. It allows your process to communicate with a remote host.
+
+AF_UNIX stands for Address Family, Unix. It used for communications between processes on the local host.
+Since the communication is happening on the same host, the network protocols become unnecessary, reducing the overhead.
+Additionally, they don't suffer from network congestion nor packet loss.
+
+3) What is the difference between SOCK_STREAM and SOCK_DGRAM?
+https://stackoverflow.com/questions/5815675/what-is-sock-dgram-and-sock-stream
+SOCK_STREAM is used by TCP (Transmission Control Protocol), which establishes a continuous connection until it is terminated by one of the parties or a network error.
+
+SOCK_DGRAM (Socket Datagram) is used by UDP (User Datagram Protocol), which sends a single datagram, receives a reply, then closes the socket.
+
+4) Why is it important to clear all the values the addrinfo struct before using it in getaddrinfo?
+If the values are not manually set to 0, then pre-existing bits can trigger unwanted flags.
+
+5) What are ai_family and ai_socktype?
+ai_family specifies the preferred address family for the returned address.
+ai_socktype specifies the preferred socket type that will be used for communication.
+
+6) What does getaddrinfo do?
+getaddrinfo returns a linked list of addrinfo structs. These structs store the sending host's address information.
+
+7) What does connect do?
+connect is used to set up the continuous connection of a TCP Client.
+
+8) What is setsockopt?
+setsockopt is a function that lets an application control its socket behavior. setsockopt can allocate buffer space, control timeouts, or permit socket data broadcasts.
+
+9) What does bind do?
+bind associates a local socket address with a provided socket file descriptor.
+
+10) What does listen do?
+listen marks a socket as accepting connections. It also specifies the size of the backlog that will be used to hold incoming, unhandled connections.
+
+11) What does accept do?
+After the server socket has been initialized, calling accept allows it to wait for new connections. By default, accept will block until a new connection has been received.

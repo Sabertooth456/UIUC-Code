@@ -1,0 +1,15 @@
+$ git config --global user.name "Yifeng Lin"
+git config --global user.name "Yifeng Lin"
+git config --global user.name
+git config --global user.email "ytlin4@illinois.edu"
+git config --global user.email
+~/src
+
+clang++ -std=c++20 -g -O0 -Wall -Wextra -Werror -pedantic hello_world.cc -o hello_world
+cd ~/src
+clang++ -std=c++20 -g -O0 -Wall -Wextra -Werror -pedantic hello_world.cc -o hello_world
+./hello_world
+logout
+cd src
+clang++ -std=c++20 -g -O0 -Wall -Wextra -Werror -pedantic hello_world.cc -o HelloWorld
+./HelloWorld

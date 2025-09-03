@@ -1,0 +1,12 @@
+/workspaces/CS 225/Files/lab_huffman/build/CMakeFiles/test.dir
+/workspaces/CS 225/Files/lab_huffman/build/CMakeFiles/decoder.dir
+/workspaces/CS 225/Files/lab_huffman/build/CMakeFiles/encoder.dir
+/workspaces/CS 225/Files/lab_huffman/build/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Files/lab_huffman/build/CMakeFiles/rebuild_cache.dir
+/workspaces/CS 225/Files/lab_huffman/build/lib/CMakeFiles/lodepng.dir
+/workspaces/CS 225/Files/lab_huffman/build/lib/CMakeFiles/cs225.dir
+/workspaces/CS 225/Files/lab_huffman/build/lib/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Files/lab_huffman/build/lib/CMakeFiles/rebuild_cache.dir
+/workspaces/CS 225/Files/lab_huffman/build/src/CMakeFiles/src.dir
+/workspaces/CS 225/Files/lab_huffman/build/src/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Files/lab_huffman/build/src/CMakeFiles/rebuild_cache.dir

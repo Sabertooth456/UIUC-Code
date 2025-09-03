@@ -1,0 +1,5 @@
+<Explain your team's strategy, implementation, etc.>
+
+Our strategy revolved entirely around avoiding randomness with a 10 foot pole. Our bot takes what we consider to be to best hard-coded path every single time, regardless of whether it starts as bot0 or bot1.
+
+We did this because we didn't want to write more code than what we already implemented in the Spimbot Lab Part 2. Most changes to the code from part2 were style changes or were changes that expanded on existing functions.

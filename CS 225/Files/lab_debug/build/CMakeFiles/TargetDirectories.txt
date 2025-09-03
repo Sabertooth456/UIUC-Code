@@ -1,0 +1,11 @@
+/workspaces/CS 225/Labs/lab_debug/build/CMakeFiles/test.dir
+/workspaces/CS 225/Labs/lab_debug/build/CMakeFiles/main.dir
+/workspaces/CS 225/Labs/lab_debug/build/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Labs/lab_debug/build/CMakeFiles/rebuild_cache.dir
+/workspaces/CS 225/Labs/lab_debug/build/lib/CMakeFiles/lodepng.dir
+/workspaces/CS 225/Labs/lab_debug/build/lib/CMakeFiles/cs225.dir
+/workspaces/CS 225/Labs/lab_debug/build/lib/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Labs/lab_debug/build/lib/CMakeFiles/rebuild_cache.dir
+/workspaces/CS 225/Labs/lab_debug/build/src/CMakeFiles/src.dir
+/workspaces/CS 225/Labs/lab_debug/build/src/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Labs/lab_debug/build/src/CMakeFiles/rebuild_cache.dir

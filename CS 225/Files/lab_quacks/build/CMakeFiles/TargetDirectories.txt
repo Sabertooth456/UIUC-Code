@@ -1,0 +1,11 @@
+/workspaces/CS 225/Files/lab_quacks/build/CMakeFiles/test.dir
+/workspaces/CS 225/Files/lab_quacks/build/CMakeFiles/main.dir
+/workspaces/CS 225/Files/lab_quacks/build/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Files/lab_quacks/build/CMakeFiles/rebuild_cache.dir
+/workspaces/CS 225/Files/lab_quacks/build/lib/CMakeFiles/lodepng.dir
+/workspaces/CS 225/Files/lab_quacks/build/lib/CMakeFiles/cs225.dir
+/workspaces/CS 225/Files/lab_quacks/build/lib/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Files/lab_quacks/build/lib/CMakeFiles/rebuild_cache.dir
+/workspaces/CS 225/Files/lab_quacks/build/src/CMakeFiles/src.dir
+/workspaces/CS 225/Files/lab_quacks/build/src/CMakeFiles/edit_cache.dir
+/workspaces/CS 225/Files/lab_quacks/build/src/CMakeFiles/rebuild_cache.dir
