@@ -1,0 +1,85 @@
+5912 warnings generated.
+10001 warnings generated.
+/grade/student/functions.cc:67:15: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  std::string pronounciation = "";
+              ^~~~~~~~~~~~~~~~~~~
+              pronounciation
+/grade/student/functions.cc:85:17: warning: local copy 'finished_phonetic' of the variable 'sound' is never modified; consider avoiding the copy [performance-unnecessary-copy-initialization]
+    std::string finished_phonetic = sound;
+                ^
+    const      &
+/grade/student/functions.cc:95:13: error: invalid case style for function 'First_Segment_At' [readability-identifier-naming,-warnings-as-errors]
+std::string First_Segment_At(size_t index, std::string string) {
+            ^~~~~~~~~~~~~~~~
+            FirstSegmentAt
+/grade/student/functions.cc:112:13: error: invalid case style for function 'Find_Segment' [readability-identifier-naming,-warnings-as-errors]
+std::string Find_Segment(std::string string) {
+            ^~~~~~~~~~~~
+            FindSegment
+/grade/student/functions.cc:112:38: warning: the parameter 'string' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+std::string Find_Segment(std::string string) {
+                                     ^
+                         const      &
+/grade/student/functions.cc:121:13: error: invalid case style for function 'Find_W_Segment' [readability-identifier-naming,-warnings-as-errors]
+std::string Find_W_Segment(std::string string) {
+            ^~~~~~~~~~~~~~
+            FindWSegment
+/grade/student/functions.cc:121:40: warning: the parameter 'string' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+std::string Find_W_Segment(std::string string) {
+                                       ^
+                           const      &
+/grade/student/functions.cc:130:13: error: invalid case style for function 'Sound_Of' [readability-identifier-naming,-warnings-as-errors]
+std::string Sound_Of(std::string string) {
+            ^~~~~~~~
+            SoundOf
+/grade/student/functions.cc:130:34: warning: the parameter 'string' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+std::string Sound_Of(std::string string) {
+                                 ^
+                     const      &
+/grade/student/functions.cc:139:6: error: invalid case style for function 'Is_Vowel' [readability-identifier-naming,-warnings-as-errors]
+bool Is_Vowel(std::string segment) {
+     ^~~~~~~~
+     IsVowel
+/grade/student/functions.cc:139:27: warning: the parameter 'segment' is copied for each invocation but only used as a const reference; consider making it a const reference [performance-unnecessary-value-param]
+bool Is_Vowel(std::string segment) {
+                          ^
+              const      &
+/grade/student/functions.cc:140:20: warning: loop variable is copied but only used as const reference; consider making it a const reference [performance-for-range-copy]
+  for (std::string v : vowels) {
+                   ^
+       const      &
+/grade/student/functions.hpp:11:13: error: invalid case style for function 'First_Segment_At' [readability-identifier-naming,-warnings-as-errors]
+std::string First_Segment_At(size_t index, std::string string);
+            ^~~~~~~~~~~~~~~~
+            FirstSegmentAt
+/grade/student/functions.hpp:13:13: error: invalid case style for function 'Find_Segment' [readability-identifier-naming,-warnings-as-errors]
+std::string Find_Segment(std::string string);
+            ^~~~~~~~~~~~
+            FindSegment
+/grade/student/functions.hpp:15:13: error: invalid case style for function 'Find_W_Segment' [readability-identifier-naming,-warnings-as-errors]
+std::string Find_W_Segment(std::string string);
+            ^~~~~~~~~~~~~~
+            FindWSegment
+/grade/student/functions.hpp:17:13: error: invalid case style for function 'Sound_Of' [readability-identifier-naming,-warnings-as-errors]
+std::string Sound_Of(std::string string);
+            ^~~~~~~~
+            SoundOf
+/grade/student/functions.hpp:19:6: error: invalid case style for function 'Is_Vowel' [readability-identifier-naming,-warnings-as-errors]
+bool Is_Vowel(std::string segment);
+     ^~~~~~~~
+     IsVowel
+/grade/student/hawaiian_words.cc:13:15: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  std::string pronounced_words = "";
+              ^~~~~~~~~~~~~~~~~~~~~
+              pronounced_words
+/grade/student/hawaiian_words.cc:17:15: error: redundant string initialization [readability-redundant-string-init,-warnings-as-errors]
+  std::string word = "";
+              ^~~~~~~~~
+              word
+/grade/student/hawaiian_words.cc:29:7: error: the 'empty' method should be used to check for emptiness instead of comparing to an empty object [readability-container-size-empty,-warnings-as-errors]
+  if (word != "") {
+      ^~~~~~~~~~
+      !word.empty()
+/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/bits/basic_string.h:1021:7: note: method 'basic_string<char, std::char_traits<char>, std::allocator<char> >'::empty() defined here
+      empty() const _GLIBCXX_NOEXCEPT
+      ^
